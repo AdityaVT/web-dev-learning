@@ -1,0 +1,148 @@
+{
+    "stories": [
+        {
+            "id": "1",
+            "author_id": "1",
+            "name": "Gamer of the desert",
+            "summary": "OC gamer story",
+            "img_url": "",
+            "fandoms": ["1"],
+            "tags": ["1", "2"],
+            "language": "1",
+            "rating": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+            }
+        },
+        {
+            "id": "2",
+            "author_id": "3",
+            "name": "Gone Native",
+            "summary": "OC dbz character in Justice League world",
+            "img_url": "",
+            "fandoms": ["2", "3"],
+            "tags": ["2", "3"],
+            "language": "1",
+            "rating": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+            }
+        }
+    ],
+    "chapters": [
+        {
+            "id": "1",
+            "chapter_url": "",
+            "story_id": "",
+            "seq_id": "",
+            "source_id": ""
+        }
+    ],
+    "users": [
+        {
+            "id": "1",
+            "name": "Oghenevwogaga",
+            "summary": "Writer of gamer of desert",
+            "img_url": "",
+            "stories": ["1"],
+            "reviews": []
+        },
+        {
+            "id": "2",
+            "name": "Rubium",
+            "summary": "The creator",
+            "img_url": "",
+            "stories": [],
+            "reviews": ["1", "2"]
+        },
+        {
+            "id": "3",
+            "name": "IdeasGuy",
+            "summary": "Author of Going Native",
+            "img_url": "",
+            "stories": ["2"],
+            "reviews": ["3"]
+        }
+    ],
+    "reviews": [
+        {
+            "id": "1",
+            "story_id": "1",
+            "user_id": "2",
+            "title": "Great story",
+            "comment": "Good story. Must read",
+            "reviewed_at": "43",
+            "datetime": "2024-03-01 00:00:00",
+            "stars": "4",
+            "likes": "0"
+        },
+        {
+            "id": "2",
+            "story_id": "2",
+            "user_id": "2",
+            "title": "Loved it",
+            "comment": "Loved the OC",
+            "reviewed_at": "20",
+            "datetime": "2024-04-01 00:00:00",
+            "stars": "5",
+            "likes": "4"
+        },
+        {
+            "id": "3",
+            "story_id": "1",
+            "user_id": "3",
+            "title": "Could be better",
+            "comment": "Story going nowhere. Could be better",
+            "reviewed_at": "15",
+            "datetime": "2024-05-15 00:00:00",
+            "stars": "2",
+            "likes": "0"
+        }
+    ],
+    "fandoms": [
+        {
+            "id": "1",
+            "name": "Naruto",
+            "type": "anime/manga"
+        },
+        {
+            "id": "2",
+            "name": "Dragon Ball Z",
+            "type": "anime/manga"
+        },
+        {
+            "id": "3",
+            "name": "Justice League",
+            "type": "comics"
+        }
+    ],
+    "tags": [
+        {
+            "id": "1",
+            "tag": "gamer",
+            "description": "gamer stories"
+        },
+        {
+            "id": "2",
+            "tag": "OC",
+            "description": "original character"
+        },
+        {
+            "id": "3",
+            "tag": "complete",
+            "description": "completed fic"
+        }
+    ],
+    "languages": [
+        {
+            "id": "1",
+            "name": "English"
+        }
+    ]
+}
